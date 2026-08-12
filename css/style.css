@@ -2,9 +2,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
   background-color: hsl(0, 0%, 8%);
   align-items: center;
+  justify-content: center;
 }
 
 .profile-card {
@@ -20,13 +24,13 @@ body {
 }
 
 .container {
-  background-color: hsl(210, 46%, 95%);
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
   padding: 2rem;
   background-color: hsl(0, 0%, 12%);
   border-radius: 1rem;
+  width: 100%; /* Fills mobile screens */
+  max-width: 450px; /* Set this to how wide you want the WHOLE card to be */
+  box-sizing: border-box;
 }
 
 .social-links {
@@ -35,19 +39,21 @@ body {
   align-items: center;
   gap: 1rem;
   margin: 1rem 0;
+  width: 100%;
 }
 
 .button-link {
   display: inline-block;
-  width: 250%;
-  height: 2rem;
-  line-height: 2rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
   text-align: center;
   text-decoration: none;
   background-color: hsl(0, 0%, 20%);
   border-radius: 0.5rem;
   color: hsl(0, 0%, 100%);
   transition: background-color 0.3s ease;
+
+  width: 100%;
 }
 
 .button-link:hover {
