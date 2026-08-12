@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  align-items: center;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 12%);
+  padding: 2rem;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.container {
+  background-color: hsl(210, 46%, 95%);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1rem;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.button-link {
+  display: inline-block;
+  width: 250%;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.5rem;
+  color: hsl(0, 0%, 100%);
+  transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.75rem;
+  color: hsl(228, 12%, 44%);
+  justify-content: center;
+}
+
+.profile-name {
+  color: hsl(0, 0%, 100%);
+  margin: 0.5rem 0;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  margin: 0 0 0.5rem 0;
+}
+
+.description {
+  color: hsl(0, 0%, 100%);
+}
